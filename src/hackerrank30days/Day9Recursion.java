@@ -47,7 +47,8 @@ public class Day9Recursion {
     static int factorial(int n) { // 4
         // result = 4 * 3 * 2 * 1 = 24;
         // result = n * factorial(n-1)
-        if(n<=0)
+        if(n<=0) {return 0;}
+        if(n<=1)
         {
             return 1;
         }
