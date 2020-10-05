@@ -2,7 +2,17 @@ package hackerrank30days;
 
 //Day 4
 public class Person {
+    protected String firstName;
+    protected String lastName;
+    protected int idNumber;
     private int age;
+    // Constructor
+    Person(String firstName, String lastName, int identification){
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.idNumber = identification;
+    }
+
     Person(int initialAge)
     {
         if(initialAge <=0)
@@ -12,6 +22,14 @@ public class Person {
         }
         age =  initialAge;
     }
+
+    // Print person data
+    public void printPerson(){
+        System.out.println(
+                "Name: " + lastName + ", " + firstName
+                        + 	"\nID: " + idNumber);
+    }
+
 
     public  void yearPasses()
     {
@@ -33,4 +51,6 @@ public class Person {
                 System.out.println("You are old.");
             }
     }
+
+
 }
