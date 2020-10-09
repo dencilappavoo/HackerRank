@@ -2,6 +2,7 @@ package hackerrank30days;
 
 import java.util.Arrays;
 
+
 public class Difference {
     private int[] elements;
     public int maximumDifference;
