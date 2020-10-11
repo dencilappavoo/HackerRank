@@ -97,10 +97,7 @@ public class Day18QsStacks
         // Pop/Dequeue the chars at the head of both data structures and compare them:
         boolean isPalindrome = true;
         for (int i = 0; i < s.length/2; i++) {
-            char popChar = p.popCharacter();
-            char dequeueChar = p.dequeueCharacter();
-
-            if (popChar != dequeueChar) {
+            if (p.popCharacter() != p.dequeueCharacter()) {
                 isPalindrome = false;
                 //break;
             }

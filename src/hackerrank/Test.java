@@ -1,6 +1,7 @@
 package hackerrank;
 
 import java.util.Arrays;
+import java.util.Calendar;
 import java.util.HashMap;
 import java.util.HashSet;
 
@@ -33,6 +34,14 @@ int test_a, test_b;
  class VoidMain {
     public static void main(String[] args) {
         // Test test = new Test(1,2);
+
+        System.out.println(Calculator.Multiply(7,45));
+        System.out.println(Calculator.Add(45,5000));
+        System.out.println(Calculator.Divide(45,400));
+        System.out.println(Calculator.Divide(400,45));
+        System.out.println(Calculator.Subtract(5000,1000));
+        System.out.println(Calculator.Subtract(1000,5000));
+
         Test test1 = new Test();
         StringOperations stringOperations = new StringOperations();
         System.out.println(stringOperations.findSubstring("caberqiitefg",5));
