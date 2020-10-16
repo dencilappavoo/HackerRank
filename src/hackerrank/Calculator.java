@@ -1,4 +1,5 @@
 package hackerrank;
+import java.math.*;
 
 public class Calculator {
 
@@ -18,4 +19,5 @@ public class Calculator {
     {
         return (number * number1);
     }
+
 }

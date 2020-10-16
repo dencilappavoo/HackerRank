@@ -1,0 +1,3 @@
+How to instantiate values.
+List<String> lstDevices = Arrays.asList("TV","TV","Mixer","Mixer","TV","TV","Fridge","Mixer");
+String[] arrDevices = new String[]{"TV", "TV", "Mixer", "Mixer", "TV", "TV", "Fridge", "Mixer"};

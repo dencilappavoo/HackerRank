@@ -29,7 +29,6 @@ class Calculator implements AdvancedArithmetic
             }
         }
         return Arrays.stream(divisors).sum();
-
     }
 
 }
