@@ -17,6 +17,5 @@ public class Day20Sorting {
     System.out.println("Array is sorted in "+countSwap+" swaps.");
     System.out.println("First Element: "+a[0]);
     System.out.println("Last Element: "+a[n-1]);
-
     }
 }
