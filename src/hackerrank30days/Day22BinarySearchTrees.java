@@ -9,8 +9,12 @@ public class Day22BinarySearchTrees {
             int leftNode = getHeight(root.left);
             int rightNode = getHeight(root.right);
             if (leftNode > rightNode) {
+                int ln = leftNode + 1;
+                System.out.print("\t l:"+ln+" l");
                 return leftNode + 1;
             } else {
+                int rn = rightNode + 1;
+                System.out.print("\t r "+ rn+" r");
                 return rightNode + 1;
             }
         }
