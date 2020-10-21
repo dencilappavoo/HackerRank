@@ -45,7 +45,6 @@ Sample Output
 package hackerrank30days;
 import java.time.LocalDate;
 import java.util.*;
-import java.text.*;
 
 
 public class Day26NestedLogic {
@@ -66,7 +65,6 @@ public class Day26NestedLogic {
         {
             int yearDifference = dateActual.getYear() - dateExpected.getYear();
             int daysDifference = dateActual.getDayOfMonth() - dateExpected.getDayOfMonth();
-            int daysDifference1= dateActual.getDayOfYear() - dateExpected.getDayOfYear();
             int monthDifference = dateActual.getMonthValue() - dateExpected.getMonthValue();
             if(yearDifference>0)
             {
